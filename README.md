@@ -1,1 +1,1 @@
-The code is only used for review.
+The code can only be used for review.
