@@ -2,6 +2,7 @@ clear;clc;close all;
 N = 18;     % 摆放位置的个数，共有N个摆放位置
 M = 88;     % 角点数量
 img_width=680; img_height=700; 
+id_normal=[1,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,19,21];
 %%%%%%%%%%%%%%%%%%%%数据读取
 %1)加载相机内参 和 每幅相移图的RT矩阵
 S = load ('..\Data\cameraParams.mat');
@@ -20,7 +21,7 @@ World_coordinate = [S.cameraParams.WorldPoints, zeros(M,1)];
 %3)加载相位图
 img_phase = zeros(N,img_width,img_height); 
 for i=1:N
-    temp=load(['..\Images\Phase\',num2str(i),'.mat']);
+    temp=load(['..\Images\Phase\',num2str(id_normal(i)),'.mat']);
     img_phase(i,:,:) = temp.phi_unwrapped';     
 end
 %%%%%%%%%%%%%%%%%%%%求解N个平面的方程
@@ -95,6 +96,7 @@ for v=1:img_height
     end
 end
 error_vector = reshape(pixel_wise_error,[1,img_height*img_width]);
+error_vector(error_vector>0.3)=0.3;
 mean_error = mean(error_vector);
 max_error=max(error_vector);
 std_error = std(error_vector);
