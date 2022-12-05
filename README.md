@@ -1,3 +1,5 @@
+IMPORTANT: Please place the two folders(i.e., "Code" and "Data") in same root to order not to change the file path in the codes.
+
 # The help documentation of file ‘Calibration.m’
 
 ##Data preparation
@@ -37,7 +39,7 @@ Users can perform it directly.
 
 # The help documentation of file ‘Reconstruction.m’
 The file can be used to reconstruct five complex surfaces. 
-Users can perform it directly.
+Users can execute it directly.
 
 # The help documentation of file ‘multi_frequency.m’
 
