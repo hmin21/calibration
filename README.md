@@ -31,6 +31,14 @@ Line82-100: Evaluate the calibration errors of different pixels and store them i
 Line102-115: Draw the frequency distribution histogram of errors, and grade the pixels with different errors. Finally, save the grades in 'Label_Table.mat'.
 
 
+# The help documentation of file ‘Pixel_Refinement_Reconstruction.m’
+The file can be used to reconstruct standard sphere with pixel with different grades, which are generated from the calibration with pixel refinement.
+Users can perform it directly.
+
+# The help documentation of file ‘Reconstruction.m’
+The file can be used to reconstruct five complex surfaces. 
+Users can perform it directly.
+
 # The help documentation of file ‘multi_frequency.m’
 
 ##Data preparation
