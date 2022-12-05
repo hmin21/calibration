@@ -1,4 +1,4 @@
-IMPORTANT: Please place the two folders(i.e., "Code" and "Data") in same root to order not to change the file path in the codes.
+IMPORTANT: Please place the two folders (i.e., "Code" and "Data") in same root to order not to change the file path in the codes.
 
 # The help documentation of file ‘Calibration.m’
 
