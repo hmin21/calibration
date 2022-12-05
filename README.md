@@ -1,6 +1,8 @@
 # IMPORTANT 
 The folder of "Code" provides the calibration with pixel refiment and several reconstruction examples.
+
 The folder of "Data" provides the parameters of camera calibration and the absolute phase of several reconstruction examples.
+
 Please place the two folders (i.e., "Code" and "Data") in same root to order not to change the file path in the codes.
 
 # Help documentation of file "Calibration.m"
