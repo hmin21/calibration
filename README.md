@@ -1,4 +1,6 @@
 # IMPORTANT 
+Please cite [1]	M. Han, F. Lei, W. Shi, S. Lu, and X. Li, “Uniaxial MEMS-based 3D reconstruction using pixel refinement,” Opt. Express, vol. 31, no. 1, pp. 536-554, 2023.
+
 The folder of "Code" provides the calibration with pixel refiment and several reconstruction examples.
 
 The folder of "Data" provides the parameters of camera calibration and the absolute phase of several reconstruction examples.
